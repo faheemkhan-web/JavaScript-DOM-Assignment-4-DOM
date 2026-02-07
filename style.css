@@ -1,0 +1,41 @@
+.highlights{
+    color: aqua;
+    background-color: rgb(30, 66, 98);
+}
+
+.active_btn{
+    background-color: rgb(34, 21, 2);
+    color: yellow;
+}
+
+.dark_mode{
+    background-color: black;
+    color: white;
+}
+
+body{
+    text-align: center;
+    font-family: monospace;
+    margin-top: 40px;
+    gap: 50px;
+}
+
+button{
+    padding: 15px 20px;
+    border-radius: 20px;
+    color: white;
+    background-color: rgb(81, 81, 209);
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover{
+    background-color: #45a049; 
+    transform: scale(1.05);    
+}
+
+p{
+    font-size: 30px;
+}
